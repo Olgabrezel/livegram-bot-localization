@@ -1,0 +1,25 @@
+language_info:
+  is_enabled: true
+  name: Deutsch
+
+start:
+  choose_language: 'Bitte wähle Deine Sprache:'
+  language_changed: Okay, Deine Sprache wurde gespeichert.
+  copyright: |
+    Dieser Bot wurde mit @LivegramBot erstellt.
+    
+cannot_forward: |
+  Du kannst nicht Nachrichten von jemand anderem weiterleiten.
+  
+cannot_edit: |
+  Wenn Du möchtest, dass der Empfänger die Änderungen sieht, sende sie als neue Nachricht.
+welcome: |-
+  Hallo!
+  
+  Du kannst uns durch diesen Bot kontaktieren.
+after_sending: (Keine Texte angegeben)
+
+ban: |
+  Du wurdest ${until ? 'bis ' + until + ' UTC' : 'permanent'} blockiert.${reason ? '\n\nGrund: ' + reason : ''}
+unban: |
+  Du bist jetzt nicht mehr blockiert.
